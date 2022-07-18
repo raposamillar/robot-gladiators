@@ -87,7 +87,7 @@ var fight = function(enemy) {
       }
       // player gets attacked first
     } else {
-      var damage = randomNuber(enemy.attack - 3, enemy.attack);
+      var damage = randomNumber(enemy.attack - 3, enemy.attack);
 
       // remove player's health by subtracting the amount we set in the damage variable
       playerInfo.health = Math.max(0, playerInfo.health - damage);
